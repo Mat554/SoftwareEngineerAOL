@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "name": "LD01 Kopi Kapal Api",
+        "price": 10,
+        "image": "img/1.jpg",
+        "description": "Ngopi Dulu Sedulur"
+    },
+    {
+        "id":2,
+        "name": "LC01 Setrika",
+        "price": 300,
+        "image": "img/2.jpg",
+        "description": "Setrikanya Ibu ibu, Mantep nih setrika hasil poin, dijamin lebih menyenangkan dari TimeZone"
+    },
+    {
+        "id":3,
+        "name": "LV03 Pulpen Sangar",
+        "price": 200,
+        "image": "img/3.png",
+        "description": "Tukarkan Pulpen Ini King, Ngeri cuy"
+    },
+    {
+        "id":4,
+        "name": "LG04 Peralatan Rumah-Rumahan",
+        "price": 500,
+        "image": "img/4.jpg",
+        "description": "Cocok buat yang seneng masak, Full Steinless Steel, Lebih gokil dibanding iklan tipi"
+    },
+    {
+        "id":5,
+        "name": "LP05 Deluxe Item's",
+        "price": 1000,
+        "image": "img/5.png",
+        "description": "Ini Limited Ibu-Ibu dan Bapak-Bapak, SEGERA DIAMBIL SEBELUM SAYA YANG AMBIL!"
+    }
+]
