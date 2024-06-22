@@ -10,7 +10,7 @@ include("connect.php");
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Responsive Cold Brew Website</title>
+    <title>Trash'In</title>
     <link rel="stylesheet" type="text/css" href="homepage.css">
 
     <!--- box icons link --->
@@ -30,20 +30,20 @@ include("connect.php");
 
     <!--- header --->
     <header>
-        <a href="#" class="logo">
-            <img src="img/logo.png">
+    <a href="#" class="logo">
+        <img src="img/logo.png">
         </a>
 
         <ul class="navlist">
-        <li><a href="#" onclick="myFunction()">Leaderboard</a></li>
-            <li><a href="#" onclick="myFunction()">Products</a></li>
-            <li><a href="#" onclick="myFunction()">Location</a></li>
+            <li><a href="http://localhost/SE_PKMKC/leaderboard.php">Leaderboard</a></li>
+            <li><a href="http://127.0.0.1:5500/product.html">Products</a></li>
+            <li><a href="http://127.0.0.1:5500/Locations.html">Location</a></li>
         </ul>
 
-        <div class="right-content">
-            <a href="http://localhost/SE_PKMKC/" class="nav-btn" >Sign In</a>
-            <div class="bx bx-menu" id="menu-icon"></div>
+        <div class="profile-picture" onclick="window.location.href='profile.html'">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-img">
         </div>
+
     </header>
 
     <!--- hero --->
@@ -54,9 +54,9 @@ include("connect.php");
             <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">Don't Forget to trade your points!</p>
 
             <div class="main-hero" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="400">
-                <a href="#" class="btn" onclick="myFunction()" >Point</a>
+                <a href="http://localhost/SE_PKMKC/point.php" class="btn">Point</a>
                 <a href="#" class="price">
-                    0 Point
+                    250point 
                 </a>
             </div>
         </div>
@@ -84,11 +84,6 @@ include("connect.php");
       AOS.init({
         offset:1,
       });
-
-      function myFunction() {
-  alert("Pls Sign-in First!");
-}
-
     </script>
 
 </body>

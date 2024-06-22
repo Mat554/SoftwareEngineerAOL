@@ -1,79 +1,115 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: "poppins", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
-body{
-    background-color: rgb(61, 119, 3);
-    background:linear-gradient(to right, #20d164, #c0d6ff);
-}
-.container{
-    background: #fff;
-    width:450px;
-    padding:1.5rem;
-    margin:50px auto;
-    border-radius:10px;
-    box-shadow:0 20px 35px rgba(0, 0, 1, 0,9);
-}
-form{
-    margin:0 2rem;
-}
-.form-title{
-    font-size:1.5rem;
-    font-weight:bold;
-    text-align:center;
-    padding:1.3rem;
-    margin-bottom: 0.4rem;
-}
-input{
-    color:inherit;
-    width:100%;
-    background-color: transparent;
-    border:none;
-    border-bottom:1px solid #757575;
-    padding-left:1.5rem;
-    font-size: 15px;
-}
-.input-group{
-    padding:1% 0;
-    position:relative;
-}
-.btn{
-    font-size:1.1rem;
-    padding:8px 0;
-    border-radius:5px;
-    outline:none;
-    border:none;
-    width:100%;
-    background: rgb(125,125,235);
-    color:wheat;
-    cursor: pointer;
-    transition:0.9s;
-}
-.or{
-    font-size:1.1rem;
-    margin-top:0.5rem;
-    text-align:center;
-}
-.icons{
-    text-align:center;
-}
-.icons i{
-    padding: 0.8rem 1.5rem;
-    cursor:pointer;
-    transition:1s;
-}
-.link{
+
+body {
+    background: linear-gradient(to right, #20d164, #c0d6ff);
     display: flex;
-    text-align:center;
-    justify-content: space-around;
-    padding: 0 4rem;
-    margin-top: 0.9rem;
-    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-button{
-    color: rgb(125,125,235);
+
+.container {
+    background: #fff;
+    width: 450px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #757575;
+    padding: 0.7rem 0;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #20d164;
+}
+
+.btn {
+    font-size: 1.1rem;
+    padding: 0.75rem 0;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    background: #20d164;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background: #18b054;
+}
+
+.or {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #757575;
+}
+
+.icons {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.icons i {
+    margin: 0 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #757575;
+    transition: color 0.3s ease;
+}
+
+.icons i:hover {
+    color: #20d164;
+}
+
+.link {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.link button {
+    background: none;
+    color: #20d164;
     font-weight: bold;
     border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.link button:hover {
+    color: #18b054;
 }
